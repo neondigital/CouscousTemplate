@@ -48,6 +48,20 @@
                                         <a href="{{ item.absoluteUrl|default(baseUrl ~ '/' ~ item.relativeUrl) }}">
                                             {{ item.text|raw }}
                                         </a>
+
+                                        {% if menu is defined %}
+                                        <ul>
+                                            {% for itemId2, item2 in item.items %}
+                                            <li class="{{ itemId2 == currentMenu ? 'active' }}">
+                                                <a href="{{ item2.absoluteUrl|default(baseUrl ~ '/' ~ item2.relativeUrl) }}">
+                                                {{ item2.text|raw }}
+                                            </a>
+                                            </li>
+                                            {% endfor %}
+                                        </ul>
+                                        {% endif %}
+                                    </li>
+                                {% endfor %}
                                     </li>
                                 {% endfor %}
                             </ul>
