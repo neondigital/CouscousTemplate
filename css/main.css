@@ -96,3 +96,7 @@ code {
     white-space: -moz-pre-wrap;
     word-wrap: break-word;
 }
+
+.navbar-default {
+    background-color: #000;
+}
