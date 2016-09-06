@@ -1,0 +1,61 @@
+body {
+  background-color: #f8f8f8;
+  color: #555555;
+  font-family: "Lato", sans-serif; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "proxima-nova", sans-serif; }
+
+blockquote {
+  border-left-color: #cccccc; }
+
+.navbar {
+  background: white;
+  opacity: 1 !important; }
+  .navbar .navbar-brand {
+    margin-left: 0;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -1px; }
+    .navbar .navbar-brand span {
+      font-weight: 400;
+      color: #cccccc; }
+    .navbar .navbar-brand small {
+      font-weight: 400;
+      color: #999999; }
+
+#sidebar .text-muted {
+  margin-top: 15px;
+  padding-top: 15px;
+  text-transform: uppercase;
+  color: #444444;
+  border-top: 1px solid #cccccc; }
+  #sidebar .text-muted:first-of-type {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0; }
+
+.nav-pills li a {
+  padding: 7.5px 10px;
+  color: #999999; }
+  .nav-pills li a:hover, .nav-pills li a:active {
+    color: #ff00a3;
+    background-color: white; }
+.nav-pills li ul {
+  padding-left: 0;
+  font-size: 90%;
+  list-style: none;
+  background: #ededed; }
+  .nav-pills li ul li a {
+    display: block;
+    padding: 7.5px 10px; }
+    .nav-pills li ul li a:hover {
+      text-decoration: none; }
+
+.page-header {
+  border-bottom-color: #cccccc; }
+  .page-header h1 {
+    margin-top: 0;
+    font-weight: 700;
+    color: #222222; }
